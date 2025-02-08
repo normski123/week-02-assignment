@@ -2,7 +2,7 @@ header {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: 5%;
+  gap: 3%;
   position: fixed;
   width: 100vw;
   text-transform: uppercase;
@@ -10,6 +10,7 @@ header {
   font-family: sans-serif;
   font-weight: 600;
   background-color: rgba(192, 192, 192, 0.3);
+  /* cursor: pointer; */
 }
 /* nav { */
 /* text-transform: uppercase; */
@@ -20,6 +21,8 @@ header {
 footer {
   size: small;
   text-align: center;
+  /* object-position: center; */
+  margin-left: auto;
 }
 
 body {
@@ -33,7 +36,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -41,19 +44,33 @@ body {
   /* background-color: red; */
   /* opacity: 60%; */
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
 }
 
 #section1 {
-  background-size: contain;
   background-image: url("https://motostatz.com/wp-content/uploads/2022/01/Honda-CBR600f4i-top-speed-and-acceleration.jpg");
 }
 #section2 {
-  background-size: contain;
   background-image: url("./images/honda-grom_800x.webp");
 }
 #section3 {
-  background-size: contain;
   background-image: url("https://images.medialinksonline.com/imagestream/19131/5163560x1024x768_FFFFFF_L_0.jpg");
+}
+button:hover {
+  background-color: black;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+.ig-logo {
+  width: 50px;
+  height: 50px;
+  /* background-image: url("./images/ig-logo.jpg"); */
+  background-size: contain;
+}
+.fb-logo {
+  width: 50px;
+  height: 50px;
+  /* background-image: url("https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.png"); */
+  background-size: contain;
 }
