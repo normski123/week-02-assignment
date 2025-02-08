@@ -1,0 +1,59 @@
+header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  position: fixed;
+  width: 100vw;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+/* nav { */
+/* text-transform: uppercase; */
+/* background-color: rgba(192, 192, 192, 0.2); */
+/* opacity: 60%; */
+/* } */
+
+footer {
+  size: small;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* border: solid black; */
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.content {
+  /* background-color: red; */
+  /* opacity: 60%; */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#section1 {
+  background-size: contain;
+  background-image: url("https://motostatz.com/wp-content/uploads/2022/01/Honda-CBR600f4i-top-speed-and-acceleration.jpg");
+}
+#section2 {
+  background-size: contain;
+  background-image: url("./images/honda-grom_800x.webp");
+}
+#section3 {
+  background-size: contain;
+  background-image: url("https://images.medialinksonline.com/imagestream/19131/5163560x1024x768_FFFFFF_L_0.jpg");
+}
